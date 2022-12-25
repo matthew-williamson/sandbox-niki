@@ -1,46 +1,19 @@
-# Getting Started with Create React App
+## Getting started
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1. Install `VSCode` (https://code.visualstudio.com/)
+2. Install `GitKraken` (https://www.gitkraken.com/)
+3. Clone this repo using `GitKraken`. I strongly suggest using `GitKraken` for all your `git` related interactions (branching, pushing, fetching, committing, etc). I can help answer any questions you have about it, or git itself.
+4. Install `nvm` and `node` (https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
+5. Open a terminal/command prompt
+6. Verify `nvm` and `node` are installed by running `nvm -v` and `node -v` (should output the versions)
+7. Run `nvm install 16` to install node version 16. By default, node will install at version 18 I believe, which sometimes causes problems.
+8. Run `nvm use 16`. `nvm` stands for `node version manager`, and is a way to switch your system between versions of `node`. `node` is what `Typescript` and `Javascript` use to run locally, and enable you to use them like a back-end language. (https://www.codecademy.com/article/what-is-node)
+9. Navigate to the repo folder (pro tip, opening the terminal in `VSCode` while you're in the repo will default the terminal location to the repo)
+10. Run `npm i` to install all the `node modules`.
+11. Run `npm start`. When you get to this step, whether the app works or not, let me know. We can pair up for a bit and go over the goals below, as well as fix whatever is broken.
 
-## Available Scripts
+## Goals for Stopwatch app
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. Should have start/stop functionality
+2. Should have reset functionality
+3. Should make use of whatever React hooks are needed (https://reactjs.org/docs/hooks-overview.html)(hint: `useState`, `useEffect` are ones I'd look at).
